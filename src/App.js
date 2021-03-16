@@ -219,7 +219,9 @@ function App() {
     <>
       <Navbar collapseOnSelect expand="lg" variant="light" bg="light">
         <Container>
-          <Navbar.Brand href="/" style={{ fontWeight: "bold" }}>Firebase Authentication</Navbar.Brand>
+          <Navbar.Brand href="/" style={{ fontWeight: "bold" }}>
+            Firebase Authentication
+            </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto" />
